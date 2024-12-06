@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issue Certificate</title>
+
+    <link rel="stylesheet" href="style.css/Issue certificate.css">
+
+
 </head>
 <body bgcolor="lightblue">
-    <table align="right">
-     <tr>
+    <div class="nav">
 
-      <td>     
-      <a href="frontpage.html">Home</a>
-      <a href="">|</a>
-      <a href="Issue Certificate.html">Issue Certificate</a>
-      </td>
-     </tr>
+        <table align="right" cellpadding="7" cellspacing="2" >
+         
+            <tr>
+              <td>     
+                <a href="frontpage.html">Home</a>
+    
+              </td>
+    
+              <td>
+                <a href="Issue Certificate.html">Issue Certificate</a>
+              </td>
+            </tr>
+          
+    
+         </table>
+    
+       </div>  
 
-     </table>
-     <form action=""></form>
+
+    
 
      
     <h2>Certificate Dapp</h2>
 
     <form action="">
 
-    <table align="center" cellspacing="15">
+    <table align="left" cellspacing="7" class="box"  >
 
+        
         <tr>
             <th>
                 Issue New Certificate
@@ -45,7 +60,7 @@
 
             <td>
                 <select name="text" > 
-                    <option value="Certificate Blockchain Associate">Certificate Blockchain Associate</option>
+                    <option value="Certificate Blockchain Associate" selected>Certificate Blockchain Associate</option>
                     <option value=" Certified Cybersecurity Associate">Certified Cybersecurity Associate</option>
                 </select>
             </td>
@@ -54,18 +69,25 @@
 
         <tr>
 
+            </th>
+
             <td>
                 Certificate ID*
             </td>
+
+            <br>
 
 
         </tr>
 
         <tr>
+            
 
             <td>
                 <input type="text" placeholder="Certificate ID" required>
            </td>
+
+            
 
 
         </tr>
@@ -100,7 +122,7 @@
         <tr>
 
             <td>
-                <select name="text" >
+                <select name="text" class="grade" >
                     <option value="text"> S </option>
                     <option value="text">A</option>
                     <option value="text">B</option>
@@ -119,16 +141,24 @@
 
         <tr>
             <td>
-                <input type="number" placeholder="DD-MM-YYYY" required>
+                <input type="date" required>
             </td>
         </tr>
+    </div>
 
+      
         <tr>
             <td>
-                <input type="submit" value="Issue Certificate">
+                
+                <input type="submit" value="Issue Certificate" class="button">
+        
             </td>
+        
         </tr>
+    
+
+        
+    
 
     </table>
-
    </form>
