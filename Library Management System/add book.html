@@ -3,7 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add Books</title>
+  <style>  
+    .box{
+
+        background-image: url('library UI.png');
+        width: 900px;
+        height: 1200px;
+        padding-top: 30px;
+        
+
+    }
+
+    .nav{
+        background-color: azure;
+        width: 800px;
+        margin-left: 50px;
+        display: flex;
+        
+
+    }
+
+
+
+    .nav a{
+        text-decoration: none;
+        color: black;
+        
+
+    }
+
+    .nav a:hover{
+        color: brown;
+    } 
+
+    .nav1{
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+
+    .nav img{
+        margin-left: 15px;
+        
+    }
+
+   
+
+    .box1{
+      
+      margin-left: 10px;
+      background-image: url('library UI.png');
+      width: 880px;
+      
+    }
+
+    .browse{
+      margin-left: 55px;
+      width: 350px;
+    }
+
+    .box1 h2{
+      margin-left: 50px;
+      
+    }
+
+    .tables{
+      background-color: antiquewhite;
+      width: 620px;
+      margin-left: 55px;
+      border-style: solid;
+      border-radius: 15px;
+      
+    }
+   
+    .search{
+      width: 200px;
+      height: 30px;
+      margin-left: 70px;
+      margin-top: 120px;
+    }
+
+    .tableflex{
+      
+      height: 800px;
+      max-width: 33%;
+      background-color: aqua;
+    }
+
+    .browseandsearch{
+      display: flex;
+    }
+
+
+    
+    
+    
+
+    
+  
+ </style>  
 
 
 
@@ -11,8 +109,172 @@
 </head>
 <body>
     
+  <div class="box">
 
 
+    <div class="nav">
+  
+      <img src="logo.png" alt="logo" width="150" >
+              
+        <div class="nav1">
+          <table  cellspacing="10" cellpadding="10">
+            <tr>
+                   <td>   
+                       <a href="Home.html">Home</a>
+                    </td>  
+                    <td>  
+                      <a href="About us.html">About Us</a>
+                    </td>
+                    <td>  
+                      <a href="cart.html">Cart</a>
+                    </td>
+                    <td>  
+                      <a href="login.html">User</a>                
+                    </td> 
+                 </tr>  
+          </table>  
+        </div>
+    </div> 
+        
+    <br>
     
+    <div class="box1">
+          
+          <div class="browseandsearch">
+           <img src="Browse.png" alt="booksimage" class="browse">
+            <br>
+           <input type="search" placeholder="Search Title/Author" class="search">
+          </div> 
+       
+          <div class="tables">
+              <table  cellspacing="8" cellpadding="8" class="table1">
+            
+                <tr>
+                   <td></td>
+                    <th bgcolor="pink">
+                    Top Rated Books
+                   </th>
+                </tr>
+
+            
+                <tr>  
+                   <td width="1">
+                    <input type="button" value="<" >
+                   </td>
+              
+                  <td>
+                    <a href=""><img src="books/1.png" alt="png" width="100"></a>
+                  </td>
+                 <td>
+                   <a href=""><img src="books/2.png" alt="png" width="100"></a>
+                  </td>
+                 <td>
+                  <a href=""><img src="books/3.png" alt="png" width="100"></a>
+                 </td>
+                 <td>
+                   <a href=""><img src="books/4.png" alt="png"width="100"></a>
+                </td>
+
+                  <td width="1">
+                   <a href=""><input type="button" value=">" ></a>
+                  </td>
+
+               <tr>
+                  <td></td>
+                  <td>
+                    <b>50 Greatest <br>Short <br>Stories</b>
+                  </td>
+                  <td>
+                    <b>The 7 Habits of</BR>Highly <br> Effective <br>
+                     People</b>
+                 </td>
+                <td>
+                  <b>Harry Potter <br>and the <br>Philosopher's <br>Stone</b>
+                </td>
+                <td>
+                  <b>50 Things to <br>Realize Before <br>It's too late </b>
+                </td>
+
+               </tr>
+ 
+            
+              </table>
+
+          
+
+          <table  cellspacing="8" cellpadding="8" class="table1" >
+            
+              <tr>
+                <td></td>
+                <th bgcolor="pink">
+                  Latest Arrivals
+                </th>
+              </tr>
+            
+            <tr>  
+              <td width="1">
+               <input type="button" value="<" >
+              </td>
+              
+              <td>
+                <img src="books/5.png" alt="png" width="100">
+              </td>
+              <td>
+                <img src="books/6.png" alt="png" width="100">
+              </td>
+              <td>
+                <img src="books/7.png" alt="png" width="100">
+              </td>
+              <td>
+                <img src="books/8.png" alt="png"width="100">
+              </td>
+
+              <td width="1">
+                <input type="button" value=">" >
+               </td>
+            </tr>   
+
+               <tr>
+                <td></td>
+                <td>
+                  <b>Autobiography <br>of a Yogi</b>
+                </td>
+                <td>
+                  <b>How to Become <br> a People <br> Magnet<br></b>
+                </td>
+                <td>
+                  <b>How to Win <br> Friends and <br>Influence People <br>
+                    Stone</b>
+                </td>
+                <td>
+                  <b>30 DAYS: <br> Change your <br>habits <br> Change your <br>life</b>
+                </td>
+
+               </tr>
+
+          </table>
+
+        </div>
+   </div>
+        
+
+       
+  </div>      
+     
+         
+     
+
+
+
+        
+
+
+      
+
+
+
+
+
+
 </body>
 </html>
