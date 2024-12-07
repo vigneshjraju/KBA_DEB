@@ -105,6 +105,11 @@
             border-style: ridge;
             border-radius: 10px;
         }
+
+        .signup{
+            color: blueviolet;
+            font-size: large;
+        }
        
     </style>
 
@@ -139,7 +144,7 @@
                     <a href="Register.html">Register</a>
                   </td>
                   <td>  
-                    <a href="Signin.html">Signin</a>                
+                    <a href="login.html">Signin</a>                
                   </td> 
                </tr>  
              </table>  
@@ -164,7 +169,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="email" placeholder="email@xx.com">
+                            <input type="email" placeholder="email@xx.com" required>
                         </td>
                     </tr>
 
@@ -175,13 +180,13 @@
                     </tr>    
                     <tr>   
                         <td>
-                            <input type="password" placeholder="****">
+                            <input type="password" placeholder="****" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="submit" value="Login" class="button">
+                            <a href="login.html"><input type="submit" value="Login" class="button"></a>
                         </td>
                     </tr>
 
@@ -191,7 +196,7 @@
                         </td>
 
                         <td>
-                            <a href="Register.html">Signup</a>
+                            <a href="Register.html" class="signup">Signup</a>
                         </td>
 
 
