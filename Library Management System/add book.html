@@ -17,8 +17,8 @@
 
     .nav{
         background-color: azure;
-        width: 800px;
-        margin-left: 50px;
+        width: 870px;
+        margin-left: 10px;
         display: flex;
         
 
@@ -30,6 +30,7 @@
         text-decoration: none;
         color: black;
         
+        
 
     }
 
@@ -38,7 +39,7 @@
     } 
 
     .nav1{
-        padding-left: 200px;
+        padding-left: 300px;
         padding-top: 30px;
     }
 
@@ -52,13 +53,13 @@
     .box1{
       
       margin-left: 10px;
-      background-image: url('library UI.png');
+      background-image: blue;
       width: 880px;
       
     }
 
     .browse{
-      margin-left: 55px;
+      margin-left: 15px;
       width: 350px;
     }
 
@@ -68,38 +69,64 @@
     }
 
     .tables{
-      background-color: antiquewhite;
-      width: 620px;
-      margin-left: 55px;
-      border-style: solid;
+      
+      width: 830px;
+      margin-left: 10px;
+      
+      
+    }
+    .table1{
+      background-color: bisque;
+      border-style: hidden;
       border-radius: 15px;
       
+    }
+
+    .table1 a:hover{
+      background-color: aqua;
+      font-size: xx-large;
     }
    
     .search{
       width: 200px;
       height: 30px;
-      margin-left: 70px;
+      margin-left: 40px;
       margin-top: 120px;
-    }
-
-    .tableflex{
-      
-      height: 800px;
-      max-width: 33%;
-      background-color: aqua;
+      border-style: solid;
+      border-radius: 14px;
+      outline-style: solid;
+      outline-color: skyblue;
     }
 
     .browseandsearch{
       display: flex;
     }
 
+   .table1cart{
+    display: flex;
+   } 
 
-    
-    
-    
+   .cart{
+    margin-left:10px;
+    background-color: bisque;
+   }
 
+   .cart a:hover{
+    background-color: bisque;
+    color: black;
+   }
+
+   .cart th{
+    text-align: right;
     
+   }
+    .cart a{
+      text-decoration: none;
+      color: blue;
+      
+    }
+  
+
   
  </style>  
 
@@ -109,7 +136,7 @@
 </head>
 <body>
     
-  <div class="box">
+<div class="box">
 
 
     <div class="nav">
@@ -120,7 +147,7 @@
           <table  cellspacing="10" cellpadding="10">
             <tr>
                    <td>   
-                       <a href="Home.html">Home</a>
+                       <a href="add book.html">Home</a>
                     </td>  
                     <td>  
                       <a href="About us.html">About Us</a>
@@ -137,7 +164,7 @@
     </div> 
         
     <br>
-    
+  
     <div class="box1">
           
           <div class="browseandsearch">
@@ -147,6 +174,8 @@
           </div> 
        
           <div class="tables">
+
+            <div class="table1cart">
               <table  cellspacing="8" cellpadding="8" class="table1">
             
                 <tr>
@@ -182,17 +211,17 @@
                <tr>
                   <td></td>
                   <td>
-                    <b>50 Greatest <br>Short <br>Stories</b>
+                    <b>50 Greatest <br>Short <br>Stories</b></a>
                   </td>
                   <td>
-                    <b>The 7 Habits of</BR>Highly <br> Effective <br>
+                    <b>The 7 Habits of</BR>Highly <br> Effective <br></a>
                      People</b>
                  </td>
                 <td>
-                  <b>Harry Potter <br>and the <br>Philosopher's <br>Stone</b>
+                  <b>Harry Potter <br>and the <br>Philosopher's <br>Stone</b></a>
                 </td>
                 <td>
-                  <b>50 Things to <br>Realize Before <br>It's too late </b>
+                  <b>50 Things to <br>Realize Before <br>It's too late </b></a>
                 </td>
 
                </tr>
@@ -200,9 +229,40 @@
             
               </table>
 
+              <table height=10 cellspacing="" cellpadding="5" class="cart">
+                <tr>
+                  <td></td>
+                  <th>
+                    <a href="Viewbook.html">My Shelf</a>
+                  </th>
+                  <td></td>
+                  
+                </tr>
+                  <td>1.</td>
+                  <td>THINK AND GROW RICH by Napoleon Hill (Author)</td>
+                  <td><a href=""><img src="books/Think.png" alt="logo" width="55"></td></a>
+                <tr>
+                  <td>
+                    2.
+                  </td>
+                  <td>
+                    The Alchemist by Paulo Coelho (Author) 
+                  </td>
+
+                  <td>
+                    <a href=""><img src="books/alchem.png" alt="logo" width="55"></a>
+                  </td>
+
+                  
+                </tr>
+              </table>
+
+
+            </div> 
+
           
 
-          <table  cellspacing="8" cellpadding="8" class="table1" >
+          <table  cellspacing="8" cellpadding="8" class="table1" width="88">
             
               <tr>
                 <td></td>
@@ -213,20 +273,20 @@
             
             <tr>  
               <td width="1">
-               <input type="button" value="<" >
+               <a href=""><input type="button" value="<" ></a>
               </td>
               
               <td>
-                <img src="books/5.png" alt="png" width="100">
+                <a href=""><img src="books/5.png" alt="png" width="100"></a>
               </td>
               <td>
-                <img src="books/6.png" alt="png" width="100">
+                <a href=""><img src="books/6.png" alt="png" width="100"></a>
               </td>
               <td>
-                <img src="books/7.png" alt="png" width="100">
+                <a href=""><img src="books/7.png" alt="png" width="100"></a>
               </td>
               <td>
-                <img src="books/8.png" alt="png"width="100">
+                <a href=""><img src="books/8.png" alt="png"width="100"></a>
               </td>
 
               <td width="1">
@@ -255,11 +315,14 @@
           </table>
 
         </div>
-   </div>
-        
+    </div>  
+   
+
+ 
 
        
-  </div>      
+   </div> 
+
      
          
      
