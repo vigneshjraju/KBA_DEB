@@ -1,0 +1,42 @@
+.box{
+
+    background-image: url('library UI.png');
+    width: 900px;
+    height: 1200px;
+    padding-top: 30px;
+    
+
+}
+
+.nav{
+    background-color: azure;
+    width: 870px;
+    margin-left: 10px;
+    display: flex;
+    
+
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    
+    
+
+}
+
+.nav a:hover{
+    color: brown;
+} 
+
+.nav1{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.nav img{
+    margin-left: 15px;
+    
+}
