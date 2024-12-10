@@ -1,0 +1,159 @@
+.calculator{
+    background-color: #6b6c74;
+    width: 600px;
+    height: 800px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-style: solid;
+    border-radius: 20px;
+    
+
+}
+
+.top h1{
+    color: azure;
+    width: 30%;
+    position: relative;
+    right: 240px;
+    
+    
+    
+}
+.top h4{
+    color: red;
+    
+
+}
+
+.top{
+    background-color: #6b6c74;
+    height: 50px;
+    
+
+}
+
+ 
+.display{
+    width: 550px;
+    height: 150px;
+    background-color: #879b99;
+    border-style: solid;
+    border-width: 20px;
+    border-color: azure;
+    border-radius: 20px;
+    box-shadow: #6b6c74;
+}
+
+
+
+.button{
+    background-color:#6b6c74;
+    width: 600px;
+    height: 500px;
+    
+    
+}
+
+.button button{
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.play{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.Set{
+    background-color:#005F73 ;
+    color: white;
+    font-size: x-large;
+    
+}
+.arrow{
+    background-color:#FFCC00;
+    color: black;
+    font-size: x-large;
+
+}
+
+.p{
+    background-color: black;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}
+
+.numbers{
+    background-color: #4b4f55;
+    color: white;
+    font-size: x-large;
+}
+    
+.pink{
+    background-color: #9a487d;
+    color: white;
+    font-size: x-large;
+} 
+
+.pink2{
+    background-color: #9a487d;
+    font-size: x-large;
+    color: white;
+}
+
+.equalto{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    position: absolute;
+    left: 905px;
+    bottom: 1px;
+}
+
+button.plus {
+    font-size: x-large;
+    height:107px;
+    background-color: black; 
+    color: white;
+    position: absolute;
+    left: 810px;
+    bottom: 1px;
+}
+
+.playminus{
+    
+    position: absolute;
+    left: 905px;
+    bottom: 78px;
+    background-color: black; 
+    color: white;
+
+}
+
+.screen{
+    padding-top: 55px;
+}
+.screen1{
+    font-size: xx-large;
+    display: flex;
+    width: 40px;
+   
+    
+}
+
+
+
+.small{
+    font-size: large;
+    
+}
